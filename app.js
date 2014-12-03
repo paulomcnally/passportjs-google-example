@@ -50,6 +50,7 @@ var app = express();
 // configure Express
 app.use(morgan(':method :url :response-time'));
 app.use(cookieParser());
+app.set('json spaces', 2);
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({
   extended: false
