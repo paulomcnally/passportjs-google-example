@@ -1,5 +1,4 @@
 var config = {
-  // https://console.developers.google.com
   google: {
     client: {
       id: process.env.GOOGLE_CLIENT_ID || '',
